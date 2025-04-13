@@ -25,13 +25,7 @@ async function main() {
     }
   }, 100);
 
-  let text = [
-    "Initialized Hacking now reading your data",
-    "Reading Your Device Files",
-    "Password files detected",
-    "Sending all passwords and personal files to server",
-    "Cleaning up",
-  ];
+ 
 
   for (const item of text) {
     await addItem(item);
